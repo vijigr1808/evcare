@@ -1,0 +1,5 @@
+CREATE TABLE [User] (
+    UserId [INT] NOT NULL IDENTITY(1,1) PRIMARY KEY,
+    Name VARCHAR(MAX),
+    Password VARCHAR(MAX)
+);
